@@ -1,26 +1,38 @@
-"D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\applications\lpc11xx\startup_code\sysinit.c"
+"D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\applications\lpc11xx\startup_code\sysinit.c"
 -std=c99
 -ferror-limit=100
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\config_11cxx
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_11xx\config_11cxx
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\lpc_core\lpc_chip\chip_common
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_common
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_11xx
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\CMSIS\CMSIS\Include
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\CMSIS\CMSIS\Include
+-I
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\logging
+-I
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\general
+-I
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\sensors
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\arm\inc\c
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\config_11cxx
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_11xx\config_11cxx
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\lpc_core\lpc_chip\chip_common
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_common
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_11xx
 -I
-D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\CMSIS\CMSIS\Include
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\CMSIS\CMSIS\Include
+-I
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\logging
+-I
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\general
+-I
+D:\20_Development\01_Embedded\LPC\lpc11C24_demo\sensors
 -DCORE_M0=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
@@ -209,8 +221,8 @@ D:\80_bitmarker\Screencasts\bitmarker_hw_demo\Daten\lpcopen\software\CMSIS\CMSIS
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593924
--D__DATE__="Sep  1 2014"
--D__TIME__="19:32:16"
+-D__DATE__="Sep  6 2014"
+-D__TIME__="17:48:18"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

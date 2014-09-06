@@ -305,6 +305,9 @@
           <state>$PROJ_DIR$\lpcopen\software\lpc_core\lpc_chip\chip_common</state>
           <state>$PROJ_DIR$\lpcopen\software\lpc_core\lpc_chip\chip_11xx</state>
           <state>$PROJ_DIR$\lpcopen\software\CMSIS\CMSIS\Include</state>
+          <state>D:\20_Development\01_Embedded\LPC\lpc11C24_demo\logging</state>
+          <state>D:\20_Development\01_Embedded\LPC\lpc11C24_demo\general</state>
+          <state>D:\20_Development\01_Embedded\LPC\lpc11C24_demo\sensors</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1888,11 +1891,35 @@
     </settings>
   </configuration>
   <group>
-    <name>Lib</name>
+    <name>Modules</name>
+    <file>
+      <name>$PROJ_DIR$\logging\logging.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\logging\logging.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensors\mcp9808.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensors\mcp9808.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\logging\uart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\logging\uart.h</name>
+    </file>
+  </group>
+  <group>
+    <name>Vendor</name>
     <file>
       <name>$PROJ_DIR$\lpcopen\software\lpc_core\lpc_chip\chip_11xx\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a</name>
     </file>
   </group>
+  <file>
+    <name>$PROJ_DIR$\general\general.h</name>
+  </file>
   <file>
     <name>$PROJ_DIR$\lpcopen\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</name>
   </file>

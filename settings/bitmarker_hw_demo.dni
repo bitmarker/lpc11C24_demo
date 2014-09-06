@@ -93,6 +93,9 @@ Mode=3
 Graph=0
 Symbiont=0
 Exclusions=
+[SfrWindow]
+Show=1 1
+Sort=4 0
 [Disassemble mode]
 mode=0
 [Breakpoints2]
