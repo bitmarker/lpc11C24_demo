@@ -17,7 +17,9 @@ int main()
   Uart_Init();
   Logging_Init();
   MCP9808_Init();
-  
+
+  Uart_Setup(9600);
+ 
   while(1)
   {
     Uart_Idle();

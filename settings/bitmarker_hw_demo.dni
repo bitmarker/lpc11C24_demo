@@ -20,7 +20,7 @@ Stop=1
 Freq=10000000
 MultiCoreRunAll=1
 [DebugChecksum]
-Checksum=1127311602
+Checksum=-560973685
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -49,6 +49,9 @@ ITMportsEnable=0
 ITMportsTermIO=0
 ITMportsLogFile=0
 ITMlogFile=$PROJ_DIR$\ITM.log
+[SfrWindow]
+Show=1 1
+Sort=4 0
 [SWOTraceWindow]
 PcSampling=0
 InterruptLogs=0
@@ -93,9 +96,6 @@ Mode=3
 Graph=0
 Symbiont=0
 Exclusions=
-[SfrWindow]
-Show=1 1
-Sort=4 0
 [Disassemble mode]
 mode=0
 [Breakpoints2]
@@ -105,6 +105,6 @@ A0=_ "D:\80_bitmarker\Screencasts\HW_02\Daten\lpcopen\software\lpc_core\lpc_chip
 A1=_ "D:\80_bitmarker\Screencasts\HW_02\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\clock_11xx.h" ""
 A2=_ "D:\80_bitmarker\Screencasts\HW_02\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h" ""
 A3=_ "D:\80_bitmarker\Screencasts\HW_02\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.c" ""
-A4=_ "D:\80_bitmarker\Screencasts\HW_02\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\sysinit_11xx.c" ""
+A4=_ "D:\80_bitmarker\Screencasts\HW_02\Daten\lpcopen\software\lpc_core\lpc_chip\chip_11xx\sysinit_11xx.c" "D:\20_Development\01_Embedded\LPC\lpc11C24_demo\lpcopen\software\lpc_core\lpc_chip\chip_11xx\sysinit_11xx.c"
 Count=5
 SuppressDialog=1

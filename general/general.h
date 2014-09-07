@@ -38,7 +38,8 @@ typedef enum
 	NO_ERROR = 0,
 	UNKNOWN_ERROR,
 	BAD_PARAMETER,
-	BAD_INDEX
+	BAD_INDEX,
+        IO_ERROR
 } result_t;
 
 typedef struct 

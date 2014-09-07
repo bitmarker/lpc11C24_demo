@@ -27,9 +27,12 @@
 #define __UART_H_
 
 #include "general.h"
+#include "chip.h"
 
+#define Uart_Idle() Uart_IdleCall()
 
-#define Uart_Idle() /* Uart_IdleCall() */
+#define UART_SRB_SIZE 128 /* Send */
+#define UART_RRB_SIZE 32 /* Receive */
 
 /* 
  * Call Uart_Idle from outside.
@@ -43,5 +46,9 @@ result_t Uart_Deinit(void);
 
 version_t Uart_Version(void);
 
+result_t Uart_Setup(uint32_t baudrate);
+
+result_t Uart_Send(const void *data, int bytes);
+result_t Uart_Read(void *data, int bytes, int *read_bytes);
 
 #endif /* Uart */
